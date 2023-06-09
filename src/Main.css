@@ -1,0 +1,41 @@
+main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .fade-up-enter {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .fade-up-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+  }
+  
+  .fade-up-appear {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .fade-up-appear-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
